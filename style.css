@@ -73,3 +73,44 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Segment-2 styling */
+.segment-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 256px;
+    padding-right: 256px;
+    gap: 16px;
+    padding-bottom: 128px;
+    padding-top: 56px;
+}
+
+.segment-2 .information {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: center;
+    padding-bottom: 56px;
+}
+
+.segment-2 .illustrations {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px; 
+}
+
+.segment-2 .illustrations .image {
+    width: 128px;
+    height: 128px;
+    padding: 8px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882f6;
+    border-radius: 16px;
+}
+
+.segment-2 .illustrations .subtext {
+    text-align: center;
+    padding: 8px;
+    color: grey;
+}
