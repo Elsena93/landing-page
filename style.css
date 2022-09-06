@@ -172,3 +172,12 @@ body {
     font-size: large;
     border-style: solid;
 }
+
+/* Footer styling */
+
+.footer {
+    text-align: center;
+    padding: 32px;
+    background-color: #1f2937;
+    color: #f9faf8  ;
+}
