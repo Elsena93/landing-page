@@ -114,3 +114,61 @@ body {
     padding: 8px;
     color: grey;
 }
+
+/* Segment-3 Styling */
+.segment-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+    padding: 288px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    gap: 32px;
+}
+
+.segment-3 .person {
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Segment-4 styling */
+
+.segment-4 {
+    background-color: #f9faf8;
+    padding: 128px;
+}
+
+.segment-4 .container {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 128px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-radius: 16px;
+}
+
+.segment-4 .container .sub-container {
+    color: #f9faf8;
+}
+
+.segment-4 .container .sub-container .action{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.segment-4 .container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    font-size: large;
+    border-style: solid;
+}
